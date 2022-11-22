@@ -1,0 +1,252 @@
+.four_section_parent {
+  padding-top: 100px;
+}
+.four_section_parent .four_section_start-text {
+  max-width: 100%;
+  text-align: center;
+}
+.four_section_parent .four_section_start-text p {
+  font-size: 14px;
+  line-height: 15px;
+  color: #FD8558;
+  text-transform: uppercase;
+}
+.four_section_parent .four_section_start-text h4 {
+  font-size: 32px;
+  line-height: 41px;
+  color: #222;
+  font-weight: 400;
+  margin-top: 24px;
+  text-transform: capitalize;
+}
+.four_section_parent .four_section_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 80%;
+  margin: 40px auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_1 {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/four_section/four_section_img1.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_1:hover {
+  scale: 1.09;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_1 .four_section_cards_all_texts {
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_1 .four_section_cards_all_texts h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_1 .four_section_cards_all_texts p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_2 {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/four_section/four_section_img2.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_2:hover {
+  scale: 1.09;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_2 .four_section_cards_all_texts {
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_2 .four_section_cards_all_texts h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_2 .four_section_cards_all_texts p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_3 {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/four_section/four_section_img3.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_3:hover {
+  scale: 1.09;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_3 .four_section_cards_all_texts {
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_3 .four_section_cards_all_texts h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_3 .four_section_cards_all_texts p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_4 {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/four_section/four_section_img4.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_4:hover {
+  scale: 1.09;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_4 .four_section_cards_all_texts {
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_4 .four_section_cards_all_texts h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_4 .four_section_cards_all_texts p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_5 {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/four_section/four_section_img5.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_5:hover {
+  scale: 1.09;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_5 .four_section_cards_all_texts {
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_5 .four_section_cards_all_texts h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_5 .four_section_cards_all_texts p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 {
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-image: url(../images/four_section/four_section_img6.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6:hover {
+  scale: 1.09;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 .four_section_cards_all_texts {
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 .four_section_cards_all_texts h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 .four_section_cards_all_texts p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 .four_section_cards_all_texts {
+  max-width: 149px;
+  text-align: center;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 .four_section_cards_all_texts .four_section_cards_all_text_big {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+.four_section_parent .four_section_cards .four_section_cards_all_6 .four_section_cards_all_texts .four_section_cards_all_text_small {
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+}

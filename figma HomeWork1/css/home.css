@@ -1,0 +1,18 @@
+.home_inner {
+  height: 100vh;
+  background-image: url(../images/home/background/backgraund.svg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home_inner_texts {
+  max-width: 632px;
+  margin: auto;
+}
+.home_inner_texts > h2 {
+  color: azure;
+  font-size: 70px;
+  line-height: 83px;
+  font-weight: 400;
+  text-align: center;
+}

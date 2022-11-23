@@ -1,0 +1,295 @@
+@media (max-width: 768px) {
+  /* ////////////// menu  //////////////// */
+  .menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .menu_logo img {
+    max-width: 80px;
+    max-height: 32px;
+  }
+  .menu_nav ul {
+    width: 320px;
+  }
+
+  .menu_nav ul li {
+    font-size: 12px;
+  }
+  @media (max-width: 630px) {
+    .menu {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .menu_logo img {
+      max-width: 66px;
+      max-height: 25px;
+    }
+    .menu_nav ul {
+      width: 300px;
+    }
+
+    .menu_nav ul li {
+      font-size: 10px;
+    }
+  }
+  /* //////////////////////////////////////////////////////////////////// max-width (350px)  //////////////// */
+
+  @media (max-width: 550px) {
+    .menu_nav {
+      display: none; /*удаляет */
+    }
+    .menu__actions {
+      display: none;
+    }
+    .menu_nav_2 {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .menu_nav_2 > div {
+      height: 4px;
+      width: 22px;
+      background-color: #002547;
+    }
+  }
+
+  /* ////////////// Home  //////////////// */
+  .home {
+    background: #002547;
+  }
+  .container {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .home__content {
+    max-width: 100%;
+  }
+  .home__caption,
+  .home__actions,
+  .home__text {
+    max-width: 100%;
+  }
+  .home__title,
+  .home__caption,
+  .home__actions,
+  .home__text {
+    text-align: center;
+  }
+
+  .home__title h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .home__title > span {
+    font-size: 9px;
+  }
+
+  .home__caption {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  /* //////////////////////////////////////////////////////////////////// max-width (422px)  //////////////// */
+  @media (max-width: 422px) {
+    .home__content .btn-transparent {
+      margin-left: 0px;
+    }
+  }
+
+  .btn {
+    height: 34px;
+    border-radius: 5px;
+    line-height: 31px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  /* ////////////// brands  //////////////// */
+
+  .nav {
+    max-width: 100%;
+    margin: 30px auto;
+  }
+  .nav img {
+    height: 25px;
+  }
+  /* //////////////////////////////////////////////////////////////////// 570px-422px  //////////////// */
+  @media (max-width: 570px) {
+    .nav img {
+      height: 16px;
+    }
+  }
+  /* //////////////////////////////////////////////////////////////////// max-width (400px)  //////////////// */
+  @media (max-width: 400px) {
+    .nav img {
+      height: 13px;
+    }
+  }
+
+  /* ////////////// two_saas  //////////////// */
+  .t_s {
+    max-width: 1168px;
+    max-height: 594px;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+  }
+
+  .t_s_left > img {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .right_start {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .right_start > span {
+    font-size: 10px;
+  }
+
+  .right_start h2 {
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .right_middle {
+    text-align: center;
+  }
+
+  .right_middle > .right_middle_fw_1,
+  .right_middle > .right_middle_fw_1 > .right_middle_fw_2 {
+    font-size: 10px;
+  }
+
+  /*////////////////// like_saas ///////////////////*/
+  .l_s_family {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .l_s_start {
+    margin: auto;
+  }
+  .l_s_middle {
+    align-items: center;
+  }
+
+  .l_s_start > span {
+    font-size: 10px;
+  }
+
+  .l_s_start > h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .l_s_middle {
+    flex-direction: column;
+  }
+
+  .cards_123 {
+    margin-top: 30px;
+  }
+
+  .card_text_center {
+    margin: 17px auto;
+  }
+
+  .card_text_down {
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////// max-width (390px) //////////////// */
+  @media (max-width: 390px) {
+    .card_text_down {
+      font-size: 10px;
+    }
+  }
+
+  .l_s_buttons {
+    margin: 30px auto;
+    justify-content: center;
+  }
+
+  /*////////////////// electric_saas ///////////////////*/
+  .electric_saas {
+    margin-bottom: 40px;
+  }
+  .e-s-content_1 {
+    margin-bottom: 35px;
+  }
+
+  .e-s-content_1 .blue-span {
+    font-size: 10px;
+  }
+  .e-s-content_1 h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .e-s-content_1 .content-min-text {
+    font-size: 12px;
+  }
+  .e-s-content_2 {
+    gap: 35px;
+  }
+
+  .e-s-content_2_blocks {
+    max-width: 226px;
+    margin: auto;
+  }
+
+  /*////////////////// footer ///////////////////*/
+
+  .footer_family {
+    max-width: 100%;
+  }
+  .footer_family_together {
+    margin: 50px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer_family_one_imgs > img {
+    max-width: 60px;
+    max-height: 23px;
+  }
+
+  input {
+    max-width: 107px;
+  }
+  .footer_family_one_text {
+    margin-top: 15px;
+    max-width: 70px;
+    font-size: 8px;
+  }
+  .li-1 {
+    font-size: 10px;
+  }
+  .li-2 {
+    font-size: 8px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////// max-width (580px) //////////////// */
+  @media (max-width: 580px) {
+    .footer_family {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+    .footer_family_together {
+      margin: 25px auto;
+    }
+    .footer_family_together_individual_5 {
+      text-align: center;
+    }
+  }
+}

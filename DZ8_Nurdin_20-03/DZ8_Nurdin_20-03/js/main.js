@@ -1,0 +1,38 @@
+const div_button = document.getElementById("div_nav");
+const div_nav = document.getElementById("menu_nav_2");
+function rrr() {
+  const div_parent = document.createElement("div");
+  const div_inner_1 = document.createElement("div");
+  const div_inner_2 = document.createElement("div");
+  const div_inner_3 = document.createElement("div");
+  const div_inner_4 = document.createElement("div");
+  const div_inner_5 = document.createElement("div");
+  div_nav.append(div_parent);
+  div_parent.setAttribute("class", "div_parent");
+  div_inner_1.setAttribute("class", "div_inner_1");
+  div_inner_2.setAttribute("class", "div_inner_2");
+  div_inner_3.setAttribute("class", "div_inner_3");
+  div_inner_4.setAttribute("class", "div_inner_4");
+  div_inner_5.setAttribute("class", "div_inner_5");
+  div_parent.append(div_inner_1);
+  div_parent.append(div_inner_2);
+  div_parent.append(div_inner_3);
+  div_parent.append(div_inner_4);
+  div_parent.append(div_inner_5);
+  const link_1 = document.createElement("h2");
+  const link_2 = document.createElement("h2");
+  const link_3 = document.createElement("h2");
+  const link_4 = document.createElement("h2");
+  const link_5 = document.createElement("h2");
+  div_inner_1.append(link_1);
+  div_inner_2.append(link_2);
+  div_inner_3.append(link_3);
+  div_inner_4.append(link_4);
+  div_inner_5.append(link_5);
+  link_1.innerText = "Home";
+  link_2.innerText = "Features";
+  link_3.innerText = "Testimonial";
+  link_4.innerText = "Pricing";
+  link_5.innerText = "CTA";
+}
+div_button.addEventListener("click", rrr);

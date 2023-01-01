@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #e5e5e5;
+}
+.container {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  height: 53px;
+  border-radius: 5px;
+  line-height: 51px;
+  padding: 0 30px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: all 0.9s ease;
+}
+
+.btn-lg {
+  min-width: 205px;
+  text-align: center;
+}
+.btn.btn-white {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1d92ff;
+}
+.btn.btn-transparent {
+  background-color: #193b59;
+  color: #fff;
+}
+.btn.btn-white:hover {
+  background-color: #1d92ff;
+  border-color: #1d92ff;
+  color: #fff;
+}
+.btn.btn-transparent:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1d92ff;
+}
+
+/* //////////////////////////////// */
+
+.l_s_buttons {
+  margin-top: 75px;
+  display: flex;
+  gap: 25px;
+}
+
+.btn.button-blue {
+  background-color: #1d92ff;
+  border-color: #1d92ff;
+  color: #fff;
+}
+.btn.button-white {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1d92ff;
+}
+.button-lg {
+  width: 198px;
+  text-align: center;
+  height: 48px;
+}
+
+.btn.button-blue:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1d92ff;
+}
+.btn.button-white:hover {
+  background-color: #1d92ff;
+  border-color: #1d92ff;
+  color: #fff;
+}
